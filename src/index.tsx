@@ -1,7 +1,3 @@
-import { AccountsClient } from '@accounts/client';
-import { AccountsClientPassword } from '@accounts/client-password';
-import { accountsLink } from '@accounts/apollo-link';
-import { ApolloClient, ApolloLink, InMemoryCache } from '@apollo/client';
 import GraphQLClient from '@accounts/graphql-client';
 import React from 'react';
 import ReactDOM from 'react-dom';

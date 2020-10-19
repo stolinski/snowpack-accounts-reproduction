@@ -7,10 +7,20 @@
     "lint": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@accounts/graphql-client": "^0.29.0",
+    "@apollo/client": "^3.2.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@accounts/apollo-link": "^0.29.0",
+    "@accounts/client": "^0.29.0",
+    "@accounts/client-password": "^0.29.0",
+    "@accounts/database-manager": "^0.29.0",
+    "@accounts/graphql-api": "^0.29.0",
+    "@accounts/graphql-client": "^0.29.0",
+    "@accounts/mongo": "^0.29.0",
+    "@accounts/password": "^0.29.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "@snowpack/app-scripts-react": "^1.12.3",
